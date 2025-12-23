@@ -1,0 +1,16 @@
+{
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bedrock-portal": "^1.1.5",
+    "bedrock-protocol": "^3.52.0",
+    "prismarine-auth": "^2.7.0"
+  },
+  "scripts": {
+    "setup": "cls && echo Please make sure you edited the lib/config.json file! && echo Installing packages... && npm install --silent && echo Compiling... && npx tsc && echo Done! Now just run \"npm start\"",
+    "start": "cls && node dist/main.js"
+  }
+}
