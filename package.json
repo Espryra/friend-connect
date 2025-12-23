@@ -10,7 +10,7 @@
     "prismarine-auth": "^2.7.0"
   },
   "scripts": {
-    "setup": "cls && echo Please make sure you edited the lib/config.json file! && echo Installing packages... && npm install --silent && echo Compiling... && npx tsc && echo Done! Now just run \"npm start\"",
+    "setup": "cls && echo Please make sure you edited the lib/config.json file! && echo Installing packages... && npm install --silent --no-package-lock && echo Compiling... && npx tsc && echo Done! Now just run \"npm start\"",
     "start": "cls && node dist/main.js"
   }
 }
