@@ -13,7 +13,7 @@ export default class Portal {
     }
 
     this.instance = new BedrockPortal({
-      authflow: {
+      host: {
         cache: "lib/account/",
         username: "account",
         options: {
@@ -33,7 +33,7 @@ export default class Portal {
     await this.instance.start();
 
     console.log(
-      `Friend Connect started: ${this.instance.host.profile?.gamertag}`
+      `Friend Connect started: ${this.instance.host.profile?.gamertag}`,
     );
 
     this.instance.on("friendAdded", (player) => {
