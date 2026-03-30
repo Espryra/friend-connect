@@ -21,6 +21,10 @@ export default class Portal {
           authTitle: Titles.MinecraftNintendoSwitch,
         },
       },
+      world: {
+        hostName: config.hostName,
+        name: config.levelName,
+      },
       ip: config.ip,
       port: config.port,
       joinability: Joinability.FriendsOfFriends,

@@ -1,4 +1,6 @@
 {
   "ip": "CHANGE ME",
-  "port": 19132
+  "port": 19132,
+  "hostName": "CHANGE ME",
+  "levelName": "CHANGE ME"
 }
